@@ -47,9 +47,9 @@ const Login = () => {
                         required
                     />
                 </div>
-                <button type="submit" className="btn btn-secondary">Login</button>
-                <button type="button" className="btn btn-secondary" onClick={handleSignUp}>Sign Up</button>
+                <button type="submit" className="btn btn-primary w-100">Login</button>
             </form>
+            <button type="submit" className="btn btn-primary" onClick={handleSignUp}>Sign Up</button>
         </div>
     );
 };

@@ -16,9 +16,13 @@ const SignUp = () => {
             alert('Signup failed');
         }
     };
+    const GoBackToLogin = () => {
+        navigate('/login'); 
+    };
 
     return (
         <div className="container mt-5">
+            <button type="button" className="btn btn-secondary" onClick={GoBackToLogin}>Go Back</button>
             <h2 className="text-center mb-4">Sign Up</h2>
             <form onSubmit={handleSubmit} className="p-4 border rounded shadow-sm">
                 <div className="form-group mb-3">
